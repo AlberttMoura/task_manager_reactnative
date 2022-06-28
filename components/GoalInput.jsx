@@ -8,7 +8,7 @@ export function GoalInput(props) {
 	}
 
 	function addGoalHandler() {
-		if (enteredGoalText.trim() != '') {
+		if (enteredGoalText.trim() !== '') {
 			props.onAddGoal(enteredGoalText.trim())
 			setEnteredGoalText('')
 		}
