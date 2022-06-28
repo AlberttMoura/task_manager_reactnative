@@ -15,16 +15,16 @@ export function GoalItem(props) {
 
 const styles = StyleSheet.create({
 	goalItem: {
-		minWidth: '60%',
+		minWidth: '70%',
 		borderRadius: 10,
-		padding: 15,
-		marginBottom: 10,
-		backgroundColor: '#652ad3',
+		paddingVertical: 8,
+		marginBottom: 20,
+		backgroundColor: '#fff',
 		alignItems: 'center',
 		justifyContent: 'center',
 	},
 	goalItemText: {
-		color: '#fff',
+		color: '#2B8FFF',
 		fontSize: 20,
 	},
 })
